@@ -26,11 +26,14 @@
             <div class="container-fluid">
                 <!-- Small boxes (Stat box) -->
                 <div class="row">
-                    <div class="col-1">
-                        <a href="{{route('admin.categories.create')}}" class="btn btn-block btn-primary">Add Category</a>
-                    </div>
                     <div class="col-12">
-                        <h1>Categories</h1>
+                        <h4>Add Category</h4>
+                        <form class="w-25" action="#">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="category" name="category" placeholder="Category name">
+                            </div>
+                            <input class="btn btn-primary" type="submit" value="add">
+                        </form>
                     </div>
                 </div>
                 <!-- /.row -->
